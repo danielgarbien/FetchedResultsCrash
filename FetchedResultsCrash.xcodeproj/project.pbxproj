@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		655606F01D34456A004EE443 /* SafeFetchedResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 655606EF1D34456A004EE443 /* SafeFetchedResultsController.swift */; };
 		6585AF191CE267F40089BDEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6585AF181CE267F40089BDEE /* AppDelegate.swift */; };
 		6585AF211CE267F40089BDEE /* FetchedResultsCrash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6585AF1F1CE267F40089BDEE /* FetchedResultsCrash.xcdatamodeld */; };
 		6585AF231CE267F40089BDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6585AF221CE267F40089BDEE /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		655606EF1D34456A004EE443 /* SafeFetchedResultsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeFetchedResultsController.swift; sourceTree = "<group>"; };
 		6585AF151CE267F40089BDEE /* FetchedResultsCrash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FetchedResultsCrash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6585AF181CE267F40089BDEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6585AF201CE267F40089BDEE /* FetchedResultsCrash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FetchedResultsCrash.xcdatamodel; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			children = (
 				6585AF731CE27CDA0089BDEE /* NSManagedObject+Convenience.swift */,
 				6585AF401CE26C5F0089BDEE /* NSFetchedResultsController+Convenience.swift */,
+				655606EF1D34456A004EE443 /* SafeFetchedResultsController.swift */,
 			);
 			name = "Core Data Convenience";
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				6585AF7A1CE28B080089BDEE /* DetailViewController.swift in Sources */,
 				6585AF351CE26BA90089BDEE /* SplitWireframe.swift in Sources */,
 				6585AF3E1CE26C470089BDEE /* FetchedResultsTableDataSource.swift in Sources */,
+				655606F01D34456A004EE443 /* SafeFetchedResultsController.swift in Sources */,
 				6585AF321CE26B750089BDEE /* WireframeViewController.swift in Sources */,
 				6585AF211CE267F40089BDEE /* FetchedResultsCrash.xcdatamodeld in Sources */,
 				6585AF4C1CE2700C0089BDEE /* ContainmentWithAutoLayout.swift in Sources */,

@@ -17,11 +17,11 @@ class Dao {
     }
     
     func peopleFRC() -> NSFetchedResultsController {
-        return NSFetchedResultsController(entityName: "Person", sortDescriptorKey: "name", managedObjectContext: context)
+        return SafeFetchedResultsController(entityName: "Person", sortDescriptorKey: "name", managedObjectContext: context)
     }
     
     func notesFRCForPerson(person: Person) -> NSFetchedResultsController {
-        let frc = NSFetchedResultsController(entityName: "Note", sortDescriptorKey: "text", managedObjectContext: context)
+        let frc = SafeFetchedResultsController(entityName: "Note", sortDescriptorKey: "text", managedObjectContext: context)
         frc.fetchRequest.predicate = NSPredicate(format: "person.name = %@", person.name)
         return frc
     }
